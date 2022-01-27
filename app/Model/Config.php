@@ -7,7 +7,7 @@ use Taoran\HyperfPackage\Traits\RepositoryTrait;
 
 /**
  */
-class AdminUser extends Model
+class Config extends Model
 {
     use RepositoryTrait;
 
@@ -18,7 +18,7 @@ class AdminUser extends Model
      *
      * @var string
      */
-    protected $table = 'admin_user';
+    protected $table = 'config';
     /**
      * The attributes that are mass assignable.
      *
